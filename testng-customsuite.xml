@@ -1,0 +1,23 @@
+<suite name="Project 1">
+	<test name="Create lead">
+		<classes>
+			<class name="week3.day1.CreateLead" />
+		</classes>
+	</test> <!-- Default test -->
+	<test name="EditLead">
+		<classes>
+			<class name="week3.day1.EditLead" />
+		</classes>
+	</test> <!-- Default test -->
+	<test name="CreateContact">
+		<classes>
+			<class name="week3.day1.CreateContact" />
+		</classes>
+	</test> <!-- Default test -->
+	<test name="EditContact">
+		<classes>
+			<class name="week3.day1.EditContact" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingParameters">
+	<parameter name="Name" value="SunilKumar" />
+	<parameter name="LName" value="Ketha" />
+	<test name="Validation">
+		<parameter name="Name" value="SunilKumarJoshi" />
+		<classes>
+			<class name="testNG.ParameterTags" />
+		</classes>
+	</test> <!-- Validation -->
+	<test name="Validation2">
+		<classes>
+			<class name="testNG.ParameterTags" />
+		</classes>
+	</test> <!-- Validation -->
+</suite> <!-- TestingParameters -->
